@@ -5,7 +5,7 @@ import url from 'url';//to get filename and dirname
 import path from 'path';//bunch of utilities to work with file path 
 //setting variable for port number which is stored in the env variables
 
-const PORT = process.env.PORT||8000;//anything and everything thast is after process.env represent that is imported from .env file
+const PORT = 5000;//anything and everything thast is after process.env represent that is imported from .env file
 
 const __filename = url.fileURLToPath(import.meta.url);//takes url converts to path
 
